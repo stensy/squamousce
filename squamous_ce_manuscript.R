@@ -2,8 +2,6 @@
 '''
 squamous cell comparative effectiveness for manuscript
 
-    i really need to start doing this on github
-
     specifically, this is using the NCDB 2014 dataset
 
 multiple parts to analysis.
@@ -18,14 +16,10 @@ III. multinomial propensity scoring via twang
 IV. cox proportional hazards modeling via survey design
 
 PART 2: RC VS RC + ADJUVANT CHEMO
-?exclude patients who died within 30 days perioperatively?
 I. import and clean data
 II. exclude cases
 III. propensity scoring
 IV. cox proportional hazards modeling
-
-Should this also be done for the other comparisons, ie should i validate
-    the results of the multinomial model against individual PS pairwise?
 
 '''
 ##### importing the info
